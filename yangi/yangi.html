@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist — копия — копия — копия/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./medi.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none !important;
+        }
+      
+        .nav{
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            display: grid;
+            grid-template-columns: auto 
+            auto auto;
+            margin: auto;
+            z-index: 5;
+        }
+    
+        .text23{
+            text-align: right;
+        }
+        .nn{
+            background-color: rgb(39, 39, 39);
+
+        }
+      
+        .nav *{
+            color: white;
+
+        }
+        .bbb{
+            background: linear-gradient(0deg, rgba(93,45,253,1) 0%, rgba(34,193,195,1) 100%);
+        }
+        .text33 a{
+            margin: 0px;
+            padding: 8px 20px;
+            border: 2px solid  rgb(39, 39, 39);
+            border-radius: 4px;
+        }
+        .text33 a:hover{
+            border: 2px solid white;
+        }
+        .menu33 span{
+            margin: 0 10px;
+        }
+        .menu33{
+            display: none;
+        }
+        @media (max-width:1100px) {
+     .text23{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                display: none;
+                
+            }
+            .text33 *{
+                line-height: 40px;
+                font-size: 25px;
+                display: block !important;
+            }
+            .menu33{
+                display: block;
+            }
+            .mobile{
+                position: absolute;
+                top: 60px;
+                background-color: rgb(58, 58, 58);
+                width: 40%;
+                height: 90vh;
+                display: block;
+                right: 10%;
+            }
+        }
+   .white{
+    color: rgb(0, 0, 0) !important;
+   }
+        .liner{
+            padding: 50px;
+            /* background: linear-gradient( to left top,red,blue); */
+        }
+        .ju{
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .tex{
+            padding: 80px 0;
+        }
+        .tex h1{
+            font-size: 60px;
+            font-weight: 700;
+        }
+        .ww{
+            color: wheat !important;
+        }
+        .bgi{
+            justify-content: baseline;
+            align-items: center;
+            background-size: cover;
+            height: 97vh;
+            background-clip: border-box;
+            background-position-x: center;
+            background-position-y: center;
+            background-image: url(./hero-bg.jpg);
+        }
+        .f{
+            line-height: 40px;
+            font-size: 25px;
+        }
+        .flex{
+            display: flex !important;
+        }
+        .tex a{
+            font-size: 22px;
+            border: 2px solid white;
+            border-radius: 4px;
+            padding: 8px 30px;
+            color: white;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .tex a:hover{
+            font-size: 22px;
+            border: 2px solid white;
+            border-radius: 4px;
+            padding: 8px 30px;
+            
+            background-color: white;
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .wid{
+            height: 90%;
+            width: 92%;
+        }
+        .ts{
+            text-align: center;
+        }
+        .p{
+            padding: 50px 0;
+        }
+        .hh *{
+            cursor: pointer;
+        }
+        .btn{
+          border: 2px solid white;
+          color: white;
+        } .btn:hover{
+          border: 2px solid white;
+          color: white;
+        }
+        body{
+            color: rgb(0, 0, 0) ;
+            z-index: 2;
+            background-color: rgb(255, 255, 255) !important;
+        }
+        
+        .v div img{
+            width: 96%;
+            height: 450px;
+        }
+   
+        .pf{
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .marg{
+            margin: right 300px ;
+            padding: 0 !important;
+        }
+        .fd{
+            font-size: 18px;
+        }
+        .hi{
+            height: 600px !important;
+        }
+        .lin{
+            line-height: 35px;
+        }
+        /* .il i{
+            margin:0 15px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="kata">
+     <div class="nn">
+       <div class="nav" >
+            <div class="logo">
+            <h1>Ilhomjon</h1>
+            </div>
+            <div class="menu33 ">
+            
+            <span class="close">X</span>
+            </div>
+            <div class="text23 ">
+                <div class="text33">
+                    <a href="#Asosiy">Asosiy</a>
+                    <a href="#Men haqimda">Men haqimda</a>
+                    <a href="#Ustozlarim">Ustozlarim</a>
+                    <a href="#Sheriklarim">Sheriklarim</a>
+                    <a href="#Qilgan ishlarim">Qilgan ishlarim</a>
+                    <a href="#Xizmatlarimiz">Xizmatl arimiz</a>
+                    <a href="#Bog'aning">Bog'aning</a>
+
+                    </div>
+            </div>
+            </div>
+     </div>
+           
+        </div>
+
+       <div class="liner bgi">
+         
+        <div class="container  " id="Asosiy">
+          <div class="row ju">
+            <div class="col-6 tex ts ww">
+                    <h1 class="white ww">
+                        WEB DASTIRCHI</BR>
+                    </h1>
+                    <p class="white f ww">
+                        Meni ismim ilhomjon men 2007-yil 18-dekabrda Namangan viloyati Pop tuman Qirchin qishlog'ida tug'ilganman.
+                        Hozirgi kunda Frontend dasturchiman
+                    </p>
+                    <!-- <a href="#">Batafsil</a> -->
+                </div>
+            </div> 
+           </div>
+       </div><br>   
+       <section id="about" class="about-mf sect-pt4 route">
+        <div class="container ">
+          <div class="row">
+            <div class="col-sm-12" id="Men haqimda">
+              <div class="box-shadow-full">
+                <div class="row">
+                    <h1>Men haqimda</h1>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-5">               
+                        <div class="about-img">
+                          <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                        </div>
+                      </div>
+                      <div class="about-info ">
+                        <p><span class="title-s"><b>Ism</b>: </span> <span>Orinboev Ilhomjon </span></p>
+                        <p><span class="title-s"><b>Profile</b>: </span> <span class="fon">Frontend dasturchi</span></p>
+                        <p><span class="title-s"><b>Email</b>: </span> <span>ilhomjonorinboev2@gmail.com</span></p>
+                        <p><span class="title-s"><b>Tel</b>: </span> <span>(998) 94-010-29-65</span></p>
+                      </div>
+                      <div class="col-sm-6 col-md-7">
+                      </div>
+                    </div>
+                    <div class="skill-mf">
+                      <p class="title-s">Ko'rsatkichlarim</p>
+                      <span>HTML</span> <span class="pull-right">85%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="lin">CSS</span> <span class="pull-right">75%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                     
+                      <span class="lin">JAVASCRIPT</span> <span class="pull-right">30%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-me pt-4 pt-md-0">
+                      <div class="title-box-2">
+                        <h5 class="title-left">
+                          About me
+                        </h5>
+                      </div>
+                      <p class="lead">
+                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                        imperdiet et, porttitor
+                        at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                        porttitor accumsan tincidunt.
+                      </p>
+                      <p class="lead">
+                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                        porttitor volutpat. Vestibulum
+                        ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                      </p>
+                      <p class="lead">
+                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                        Nulla porttitor accumsan
+                        tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End About Section -->
+       <div class="color">
+        <div class="container p " id="Ustozlarim">
+            <h1 class="ts white">Ustozlarim</h1>
+            <br><br>
+            <section id="about" class="about-mf sect-pt4 route">
+                <div class="container">
+                  <div class=" flex">
+                    <div class="col">
+                      <div class="box-shadow-full">
+                        <div class="row">
+                             
+                              <div class="col-4">
+                                <div class="about-info">
+                                  <p>
+                                    <img src="./testimonial-2.jpg" alt=""><br><br>
+                                    <span class="title-s"><b>Ism</b>: </span> <span>Obidjon </span></p>
+                                  <p><span class="title-s"><b>Profile</b>: </span> <span>full stack developer</span></p>
+                                  <p><span class="title-s"><b>Email</b>: </span> <span>komilonovobdjon@gmail    .com</span></p>
+                                  <p><span class="title-s"><b>Tel</b>: </span> <span>(998) 94-089-45-89</span></p>
+                                </div>
+                            <div class="skill-mf">
+                              <p class="title-s">Ko'rsatkichlar</p>
+                              <span>HTML</span> <span class="pull-right">100%</span>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <span>CSS</span> <span class="pull-right">100%</span>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                            
+                              <span>JAVASCRIPT</span> <span class="pull-right">95%</span>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-4">
+                            <div class="about-info">
+                              <p>
+                                <img src="./testimonial-2.jpg" alt=""><br><br>
+                                <span class="title-s"><b>Ism</b>: </span> <span>Otabek </span></p>
+                              <p><span class="title-s"><b>Profile</b>: </span> <span>full stack developer</span></p>
+                              <p><span class="title-s"><b>Email</b>: </span> <span>otabek@gmail.com</span></p>
+                              <p><span class="title-s"><b>Tel</b>: </span> <span>(998) 557-289-21-33</span></p>
+                            </div>
+                        <div class="skill-mf">
+                          <p class="title-s">Ko'rsatkichlar</p>
+                          <span>HTML</span> <span class="pull-right">95%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <span>CSS</span> <span class="pull-right">90%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        
+                          <span>JAVASCRIPT</span> <span class="pull-right">85%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="about-info">
+                          <p>
+                            <img src="./ulube.png" alt="" style="width: 150px;"><br><br>
+                            <span class="title-s"><b>Ism</b>: </span> <span>Behruz</span></p>
+                          <p><span class="title-s"><b>Profile</b>: </span> <span>full stack developer</span></p>
+                          <p><span class="title-s"><b>Email</b>: </span> <span>meliboyevbehruz@example.com</span></p>
+                          <p><span class="title-s"><b>Tel</b>: </span> <span>(998) 94-089-78-89</span></p>
+                        </div>
+                    <div class="skill-mf">
+                      <p class="title-s">Ko'rsatkichlar</p>
+                      <span>HTML</span> <span class="pull-right">100%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 910%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span>CSS</span> <span class="pull-right">90%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    
+                      <span>JAVASCRIPT</span> <span class="pull-right">95%</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  
+                      
+                  </div>
+                </div>
+              </section>
+            
+          </div>
+     </div>
+     <div class="color " id="Sheriklarim">
+        <div class="container p ">
+            <h1 class="ts white">Meni Sheriklarim</h1>
+            <br><br>
+            <div class="row v">
+                <div class="col-4">
+                    <img src="./bola27.jpg" alt="" class="">
+                </div>
+                <div class="col-4 ">
+                    <img src="./bp.jpg" alt="" class="">
+                </div>
+                <div class="col-4">
+                    <img src="./qiz.jpg" alt="" class="">
+                </div>
+            </div>
+            <p class=" white mt-3 pf" >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore possimus, ipsa consectetur recusandae fugiat odio praesentium voluptas placeat cumque nam culpa exercitationem a nulla in tempora, atque porro ratione earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga officia mollitia incidunt nesciunt impedit expedita veniam facere dolore, laudantium, alias, quisquam maxime eum cumque reiciendis! Itaque optio adipisci excepturi. 
+            </p>
+          </div>
+     </div>
+    </div> 
+     <div class="container " id="Qilgan ishlarim">
+        <h1 class="ts">Qilgan ishlarim</h1><br>
+        <div id="carouselExample" class="mmmm y carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./Снимок экрана (504).png" class="d-block w-100 hi"  alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Снимок экрана (504).png" class="d-block w-100 hi"  alt="...">
+                </div>
+              <div class="carousel-item">
+                <img src="./Снимок экрана (503).png" class="d-block w-100 hi"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Снимок экрана (503).png" class="d-block w-100 hi"  alt="...">
+              </div> <div class="carousel-item">
+                <img src="./Снимок экрана (506).png" class="d-block w-100 hi"  alt="...">
+              </div> <div class="carousel-item">
+                <img src="./Снимок экрана (507).png" class="d-block w-100 hi"  alt="...">
+              </div> <div class="carousel-item">
+                <img src="./Снимок экрана (508).png" class="d-block w-100 hi"  alt="...">
+              </div> <div class="carousel-item">
+                <img src="./Снимок экрана (509).png" class="d-block w-100 hi"  alt="...">
+              </div> <div class="carousel-item">
+                <img src="./Снимок экрана (510).png" class="d-block w-100 hi"  alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev white" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon white" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next white" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon white" aria-hidden="true"></span>
+              <span class="visually-hidden white">Next</span>
+            </button>
+          </div>
+     </div>
+
+    <div class="container p  ts" id="Xizmatlarimiz">
+        <h1>Hizmatlarimiz</h1>
+        <p class="fd"><b class="b">Biz web saytlar teramiz Teregram bot yaratamiz Mobil ilovalar yaratamiz</b></p><br><br>
+        <div class="row">
+            <div class="col-4"><img src="./code.jpg" alt="" class="w-100"></div>
+            <div class="col-4"><img src="bot.jpg" alt="" class="w-100 h-100"></div>
+            <div class="col-4"><img src="./mo.jpg" alt="" class="w-100 h-100"></div>
+        </div>  <div class="row mt-5">
+            <div class="col-4"><img src="./code3.jpg" alt="" class="w-100"></div>
+            <div class="col-4"><img src="bot2.png" alt="" class="w-100 h-100"></div>
+            <div class="col-4"><img src="./mo2.jpg" alt="" class="w-100 h-100"></div>
+        </div>
+    </div>
+    <div class="container p " id="in'aning">
+        <h1 class="ts">Manzizilimiz</h1><br><br>
+        <div class="row">
+            <div class="col-4 ts">
+                <img src="zor.png" alt=""><br>
+                <p>
+                    Nmangan viloyati Pop tuman
+                </p>
+            </div>
+            <div class="col-4 ts">
+                <img src="sm-removebg-preview.png" alt=""><br>
+                <p>
+                    +998 94 010 29 65
+
+                </p>
+            </div>
+            <div class="col-4 ts">
+                <img src="zor2.png" alt=""><br>
+                <p>
+                    ilhomjonorinboev@gmail.com
+                </p>
+            </div>
+          
+            
+        </div>
+    </div>
+   <div class="color p white">
+    <div class="container ">
+        <div class="row hh">
+            <div class="col-3">
+                <h3>Asosiy</h3>
+                <p></p>
+                <p>
+                    Sheriklarim
+                </p>
+                <p>
+                    Xizmatlarimiz 
+                </p>
+                <p>
+                    Bog'aning
+                </p>
+            </div> <div class="col-3">
+                <h3>Sheriklarim</h3>
+                <p>Hamkorlarim</p>
+              
+                <p>
+                    Xizmatlarimiz 
+                </p>
+                <p>
+                    Bog'aning
+                </p>
+            </div> <div class="col-3">
+                <h3>Xizmatlarimiz</h3>
+                <p>Web saytlar</p>
+                <p>
+                    Mobil ilovalar
+                </p>
+                <p>
+                    Telegram botlar 
+                </p>
+                <p>
+                </p>
+            </div>
+            <div class="col-3 il">
+                <h3>Bog'aning</h3>
+                <p><i class="fa-brands fa-facebook"></i>  <i class="fa-brands fa-instagram ms-3"></i> <i class="fa-brands fa-twitter ms-3"></i> <i class="fa-brands fa-linkedin ms-3"></i></p>
+             
+            </div>
+         
+        </div>
+        
+    </div> 
+   </div>
+   <script src="./bootstrap-5.3.0-dist — копия — копия — копия/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="./scrit.js"></script>    
+</body>
+</html> 

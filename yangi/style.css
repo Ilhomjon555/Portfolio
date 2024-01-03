@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    /* padding: 0 14%; */
+    align-items: center;
+    text-transform: uppercase;
+    padding: 20px 14%;
+}
+.left h1{
+    color: red;
+}
+.right{
+    text-align: center;
+}
+.right a{
+    color: black;
+    margin: 0 30px;
+}
+.flex{
+display: flex;
+justify-content: center;
+/* align-items: center; */
+}
+.left2 img{
+width: 90%;
+}   
+.menu{
+    padding: 70px 0;
+    background-image: linear-gradient( to top left, red , blue);
+}
+.righht2{
+    margin-top: 50px;
+}
+.righht2 h1{
+    font-size: 120px ;
+    color: white;
+}
+.righht2 p{
+    font-size: 23px ;
+    line-height: 35px;
+    margin: 30px 0;
+    color: white;
+}
+.righht2 a{
+    border: 2px solid white;
+    padding: 12px 38px;
+    color: white;
+    display: inline-block;
+}
+
+.heder{
+    padding: 80px 12%;
+}
+.tex{
+    text-align: center;
+}
+.tex h2{
+    margin: 16px 0;
+}
+ .flex2{
+display: flex;
+justify-content: center;
+}
+.card p{
+margin: 15px 0;
+}
+.card{
+margin: 40px 20px;
+}
+.card h3{
+margin: 18px 0;
+color:red;
+}
+.card i{
+line-height: 26px;
+}   
+.newmenu{
+display: grid;
+grid-template-columns: auto auto;
+align-items: center;
+}
+.newmenu img{
+width: 100%;
+}
+.right3{
+text-align: right;
+}
+.right3 img{
+width: 250px ;
+}
+.text2{
+    margin-right: 100px;
+}
+.text2 p{
+line-height: 25px;
+font-size: 18px;
+margin: 10px 0;
+}
+.text2 h1{
+font-size: 40px;
+}
+.text2 h3{
+color: red;
+font-weight: 500;
+}
+.newmenu2{
+text-align: center;
+padding: 100px 12%;
+}
+.newmenu2 h1,h2{
+margin: 20px 0;
+}
+.cardcha{
+border: 2px solid rgb(13, 0, 255);
+padding: 60px 20px;
+margin: 40px 15px;
+display: inline-block;
+}
+.cardcha h2{
+color: rgb(0, 17, 255);
+}
+.cardcha i{
+color: rgb(158, 157, 157);
+line-height: 28px;
+}
+.cardcha2 i{
+color: rgb(158, 157, 157);
+line-height: 28px;
+}
+.cardcha2{
+margin: 40px 15px;
+border: 2px solid rgb(255, 8, 0);
+padding: 60px 20px;
+display: inline-block;
+}
+.cardcha2 h2{
+color: rgb(255, 0, 0);
+}
+.Our{
+padding:80px 12%;
+color: white;
+background-color: rgb(49, 49, 241);
+}
+.img  img{
+width:30%;
+height: 400px;
+margin: 0 10px;
+
+}
+.img{
+    display: flex;
+flex-wrap: wrap;
+}
+.texcha{
+margin:60px 0 0 0 ;
+}
+.texcha h1,h3,p{
+line-height: 30px;
+
+}
+.imlar{
+padding: 0 13%;
+}
+.imlar img{
+margin:  10px;
+}
+
+.imlar{
+text-align: center;
+display: flex;
+}
+.imlar img{
+height: 330px;
+width: 100%;
+}
+.imlar img{
+height: 360px;
+}
+.cntr{
+padding: 60px 0;
+text-align: center;
+}
+.cntr p{
+margin: 20px 0;
+font-size: 20px;
+}
+.nomsiz{
+background-color: blue;
+padding: 70px 12%;
+color: white;
+}
+.o img{
+width: 460px;
+}
+.ch{
+background-image: linear-gradient(rgb(255, 0, 0),rgb(55, 0, 255));
+padding: 15% 20px;
+}
+
+.ch h1{
+font-size: 60px;
+}
+.ch a{
+    border: 2px solid white;
+    padding: 12px 38px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+}
+.ch h3{
+
+    margin: 20px 0;
+}
+.centr {
+    justify-content: center;
+    padding: 80px 13%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.kichkina{
+    margin: 0 60px;
+}
+.centr2 {
+    justify-content: center;
+    padding: 80px 13%;
+    display: flex;
+    background-color: rgb(32, 2, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.kichkina2{
+    margin: 0 140px;
+}
+.ilar{
+    background-color: rgb(32, 2, 255);
+    color: white;
+    text-align: center;
+    padding:0 0 40px 0;
+}
+.ilar i{
+    margin: 0 10px;
+}
+.footr {
+    color: white;
+    background-color: rgb(74, 73, 73);
+    text-align: center;
+    padding: 25px 0;
+}

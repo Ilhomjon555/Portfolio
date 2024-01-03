@@ -1,0 +1,49 @@
+/* @media  (max-width:900px){
+    .navbar{
+            display: grid;
+            grid-template-columns: auto;
+            align-items: center;
+            text-transform: uppercase;
+            padding: 20px 10px;
+    }
+    .flex{
+        display: block;
+        justify-content: center;
+        /* align-items: center; */
+/*         
+        .right a{
+            color: black;
+            margin: 10px 0;
+            display: block;
+        }
+        .right{
+            text-align: left;
+        }
+        .righht2 h1{
+            font-size: 60px ;
+            color: white;
+        }
+        .flex2{
+            display: block;
+            justify-content: center;
+            }
+         .newmenu{
+                display: grid;
+                grid-template-columns: auto ;
+                align-items: center;
+            }
+                .heder{
+                    padding: 80px 0;
+            }
+                .right3{
+                    text-align: left;             }
+        .newmenu2{
+                        text-align: center;
+                        padding: 100px 0;
+                        }
+            .Our{
+                            padding:80px 0;
+                            color: white;
+                            background-color: rgb(49, 49, 241);
+              }
+             */
